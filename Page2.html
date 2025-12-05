@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Art of Photography</title>
+    <style>
+        body {
+            font-family: Arial ;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            background-color: #986629;
+            color: rgb(255, 255, 255);
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #b99d7f;
+        }
+
+        section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        article {
+            background-color: white;
+            border: 1px solid #ddd;
+            margin: 15px;
+            padding: 20px;
+            width: 300px;
+            box-sizing: border-box;
+            border-radius: 8px;
+            transition: transform 0.3s;
+        }
+
+        article:hover {
+            transform: scale(1.05);
+        }
+
+        img {
+            width: 100%;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        footer {
+            background-color: #986629;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            bottom: 0;
+            width: 100%;
+        }
+        
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>BASKETBALL</h1>
+        <nav>
+            <a href="Main Page.html">Home</a>
+            <a href="Page1.html">Themes</a>
+        </nav>
+    </header>
+    <center>
+    <section class="home">
+        <img src="ball (1).jpg" alt="" style="width: 100%; height: 750px; max-height: 300px; object-fit: cover;">
+    </section>
+</center>
+    <section style="padding-bottom: 200px;padding-top: 20px;">
+        <article>
+            <h2>Basketball 1</h2>
+            <img src="ball (2).jpg" alt="Air Jordan 1" style="width: 100%; height: 500px; max-height: 180px;">
+            <p>Shot on Sony A7 II</p>
+            <button onclick="addToCart('Air Jordan 1', 190)">Add to Cart</button>
+        </article>
+        <article>
+            <h2>Basketball 2</h2>
+            <img src="ball (4).jpg" alt="Jordan Zion 3" style="width: 100%; height: 500px; max-height: 180px;">
+            <p>Shot on Sony A7 II</p>
+            <button onclick="addToCart('Jordan Zion 3', 200)">Add to Cart</button>
+        </article>
+
+        <article style>
+            <h2>Basketball 3</h2>
+            <img src="ball (3).jpg" alt="Jordan Luka 1" style="width: 100%; height: 500px; max-height: 180px;">
+            <p>Shot on Sony A7 II</p>
+            <button onclick="addToCart('Jordan Luka 1', 170)">Add to Cart</button>
+        </article>
+    </section>
+
+    <footer>
+        <h3>Contact us</h3>
+        <p>Email: giovanni.photography@gmail.com</p>
+        <p>Whatsapp: 081356050000</p>
+    </footer>
+
+    <script>
+        function addToCart(productName, price) {
+            alert('Shot on Sony A7 II: Shutter Speed: 1/300, f/4.0, ISO: 200');
+        }
+    </script>
+
+</body>
+</html>

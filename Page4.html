@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOOPS Anywhere</title>
+    <style>
+        body {
+            font-family: Arial ;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            background-color: #f6de01;
+            color: rgb(20, 2, 2);
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #b99d7f;
+        }
+
+        section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        article {
+            background-color: white;
+            border: 1px solid #ddd;
+            margin: 15px;
+            padding: 20px;
+            width: 300px;
+            box-sizing: border-box;
+            border-radius: 8px;
+            transition: transform 0.3s;
+        }
+
+        article:hover {
+            transform: scale(1.05);
+        }
+
+        img {
+            width: 100%;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        footer {
+            background-color: #982929;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            bottom: 0;
+            width: 100%;
+        }
+        
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>UNDER ARMOUR</h1>
+        <nav>
+            <a href="Main Page.html">Home</a>
+            <a href="Page1.html">Brand</a>
+        </nav>
+    </header>
+    <center>
+    <section class="home">
+        <img src="UAUAUUAUAU.png" alt="" style="width: 100%; height: 750px; max-height: 300px; object-fit: cover;">
+    </section>
+</center>
+    <section style="padding-bottom: 200px;padding-top: 20px;">
+        <article>
+            <h2>UA Curry Flow 10</h2>
+            <img src="CURRRYY 10.png" alt="Curry Flow 10">
+            <p>Stephen Curry</p>
+            <p>Price: $190.00</p>
+            <button onclick="addToCart('Curry Flow 10', 190)">Add to Cart</button>
+        </article>
+        <article>
+            <h2>UA Curry 2</h2>
+            <img src="CURRY 222.png" alt="UA Curry 2">
+            <p>Stephen Curry</p>
+            <p>Price: $185.00</p>
+            <button onclick="addToCart('Curry 2', 185)">Add to Cart</button>
+        </article>
+
+        <article style>
+            <h2>UA Curry Flow 11</h2>
+            <img src="CURYYYY 1111.png" alt="Curry Flow 11">
+            <p>Stephen Curry</p>
+            <p>Price: $200.00</p>
+            <button onclick="addToCart('Curry Flow 11', 200)">Add to Cart</button>
+        </article>
+    </section>
+
+    <footer>
+        <h3>Contact us</h3>
+        <p>Email: giovanni.ballers@gmail.com</p>
+        <p>Whatsapp: 081356050000</p>
+    </footer>
+
+    <script>
+        function addToCart(productName, price) {
+            alert(productName + ' added to cart. Total: $' + price);
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Art of Photography</title>
+    <style>
+        body {
+            font-family: Arial ;
+            margin: 0;
+            padding: 0;
+            color: hsl(37, 82%, 76%);
+        }
+
+        header {
+            background-color: hsl(37, 82%, 76%);
+            color: hsl(37, 100%, 25%);
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav a {
+            color: hsl(37, 100%, 25%);
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #b99d7f;
+        }
+
+        section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        article {
+            background-color: rgb(255, 255, 255);
+            border: 1px solid #ddd;
+            margin: 15px;
+            padding: 20px;
+            width: 300px;
+            box-sizing: border-box;
+            border-radius: 8px;
+            transition: transform 0.3s;
+        }
+
+        article:hover {
+            transform: scale(1.05);
+        }
+
+        img {
+            width: 100%;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        footer {
+            background-color: #986629;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            bottom: 0;
+            width: 100%;
+        }
+        
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Select Theme</h1>
+        <nav>
+            <a href="Main Page.html">Home</a>
+            <a href="Page2.html">Basketball</a>
+            <a href="Page3.html">Concert</a>
+        </nav>
+    </header>
+    <center>
+    <section class="home">
+        <img src="concert (1).jpg" alt="" style="width: 99%; height: 750px; max-height: 300px; object-fit: cover;">
+    </section>
+</center>
+
+    <footer>
+        <h3>Contact us</h3>
+        <p>Email: giovanni.photography@gmail.com</p>
+        <p>Whatsapp: 081356050000</p>
+    </footer>
+
+    <script>
+        function addToCart(productName, price) {
+            alert(productName + ' added to cart. Total: $' + price);
+        }
+    </script>
+
+</body>
+</html>
